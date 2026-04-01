@@ -17,11 +17,11 @@ O pipeline abrange desde a ingestão dos dados brutos até a disponibilização 
 
 ![Diagrama da Arquitetura](assets/arquitetura.png)
 
-**1. Origem**
+**1. Extração**
 - Dados brutos extraídos do Kaggle em formato CSV.
 
 **2. Validações, Transformações e Enriquecimento**
-- Etapa executada com Pandas:
+Etapa executada com Pandas:
 * **Validações**: remoção de nulos e duplicatas, aplicação de filtros de anomalias;
 * **Transformações**: conversão de tipos e tratamento de strings;
 * **Enriquecimento**: criação de novas colunas que alimentam filtros no dashboard.
@@ -46,7 +46,7 @@ O pipeline abrange desde a ingestão dos dados brutos até a disponibilização 
 
 ---
 
-## 📁 Estrutura do Repositório
+## 📁 Estrutura do Projeto
 
 ```text
 ├── data/
@@ -76,8 +76,8 @@ O resultado permite analisar a visão geral, por hora, por fornecedor, por tipo 
 **Pré-requisito:** Certifique-se de ter o gerenciador de pacotes **UV** instalado.
 **1. Clone o repositório**
 ```bash
-git clone [https://github.com/isatorqueti/nyc-yellow-taxy-etl-pipeline.git](https://github.com/isatorqueti/nyc-yellow-taxy-etl-pipeline.git)
-cd 
+git clone https://github.com/isatorqueti/nyc-yellow-taxy-etl-pipeline.git
+cd nyc-yellow-taxy-etl-pipeline
 ```
 
 **2. Sincronize dependências**
