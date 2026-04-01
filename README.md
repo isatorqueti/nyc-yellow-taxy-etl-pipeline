@@ -76,8 +76,8 @@ O resultado permite analisar a visão geral, por hora, por fornecedor, por tipo 
 **Pré-requisito:** Certifique-se de ter o gerenciador de pacotes **UV** instalado.
 **1. Clone o repositório**
 ```bash
-git clone https://github.com/isatorqueti/nyc-yellow-taxy-etl-pipeline.git
-cd nyc-yellow-taxy-etl-pipeline
+git clone https://github.com/isatorqueti/nyc-yellow-taxi-etl-pipeline.git
+cd nyc-yellow-taxi-etl-pipeline
 ```
 
 **2. Sincronize dependências**
