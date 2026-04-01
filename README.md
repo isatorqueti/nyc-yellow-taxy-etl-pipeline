@@ -1,13 +1,13 @@
 # NYC Yellow Taxi Data Analytics & Engineering
 
-Projeto de Engenharia de Dados focado na construção de um pipeline ETL para dados de corridas do NYC Yellow Taxi através de milhares de registros com persistência em Parquet, DuckDB para processamento e dashboard interativo com Streamlit.
+Projeto de Engenharia de Dados focado na construção de um pipeline ETL para dados de corridas do NYC Yellow Taxi através de milhares de registros com persistência em Parquet, processamento em DuckDB e dashboard interativo com Streamlit.
 
 ---
 
 ## 📖 Visão Geral
 O projeto tem como objetivo construir um fluxo ETL completo usando dados reais de NYC Yellow Taxi.
 O pipeline abrange desde a ingestão dos dados brutos até a disponibilização de *insights* visuais.
-* Os arquivos originais passam por limpeza e tipagem, sendo persistidos em formato Parquet localmente para garantir alta compressão e otimização de leitura.
+* Os arquivos originais passam por limpeza e tipagem, sendo persistidos em formato **Parquet** localmente para garantir alta compressão e otimização de leitura.
 * O motor de processamento analítico (OLAP) é o **DuckDB**, que roda inteiramente em memória e executa consultas SQL complexas diretamente nos arquivos colunares, eliminando a necessidade de um banco de dados tradicional pesado.
 * Por fim, os dados processados são consumidos sob demanda por um dashboard interativo desenvolvido em **Streamlit**, utilizando técnicas avançadas de caching para garantir performance em tempo real.
 
@@ -76,7 +76,7 @@ O resultado permite analisar a visão geral, por hora, por fornecedor, por tipo 
 **Pré-requisito:** Certifique-se de ter o gerenciador de pacotes **UV** instalado.
 **1. Clone o repositório**
 ```bash
-git clone [https://github.com/isatorqueti/.git](https://github.com/isatorqueti/.git)
+git clone [https://github.com/isatorqueti/nyc-yellow-taxy-etl-pipeline.git](https://github.com/isatorqueti/nyc-yellow-taxy-etl-pipeline.git)
 cd 
 ```
 
